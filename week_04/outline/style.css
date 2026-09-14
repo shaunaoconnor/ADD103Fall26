@@ -1,0 +1,16 @@
+ul {
+    list-style-type: square;
+    margin: 1rem 0;
+    padding-left: 2rem;
+}
+
+ol {
+    list-style-type: lower-roman;
+    margin: 1rem 0;
+    padding-left: 2rem;
+}
+
+li {
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+}

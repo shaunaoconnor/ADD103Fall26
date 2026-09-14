@@ -1,0 +1,22 @@
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        padding: 12px;
+        background-color: #ff00bf;
+    }
+
+    th,
+    td {
+        border: 1px solid black;
+
+    }
+
+    #my-birthday {
+        background-color: #7569b8;
+        border: 3px solid rgb(0, 178, 209);
+    }
+
+    .birthday-img {
+        width: 30px;
+        height: auto;
+    }
