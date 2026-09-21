@@ -1,23 +1,56 @@
-.gallery-row {
+body {
+    background-color: rgb(255, 199, 134);
+    color: #ff4b15;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.hero {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around gap: 16px;
+    align-items: center;
+    align-self: flex-start;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(224, 176, 0);
+    color: #ffb06b;
+}
 
-    background-color: #fefefe;
+.hero-text,
+.hero-img {
+    flex-basis: 50%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(255, 59, 59);
+    color: #7f90ff;
+}
+
+.hero-text {
     padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(255, 93, 93);
+    color: bisque;
 }
 
-.card {
-    width: 90%;
-    padding: 10px;
-    margin: 10px;
-    border: 1px solid #004f56;
-    border-radius: 40px;
-    box-sizing: border-box;
+/* THE WRAPPER */
+.page-wrapper {
+    display: flex;
 }
 
-.card img {
-    max-width: 100%;
-    height: auto;
-    display: 20;
+
+.button {
+    color: #7dc2fb;
+    background-color: aqua;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.half {
+    flex: 1;
+}
+
+.footer {
+    background-color: rgb(225, 101, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
