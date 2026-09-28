@@ -2,64 +2,66 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+
+.body {
+    background-color: rgb(236, 127, 255);
+    background-color: rgb(2, 81, 199);
+    color: #b774ff;
+
 
 }
 
-body {
-    background: #007bff;
-    color: beige;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(0, 107, 0)
-}
-
-.photo-wall {
+.gallery-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 80px;
+    max-width: 1000px;
+    margin: 100px auto;
+    padding: 100px;
+    background-color: rgb(37, 172, 255);
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat (auto-fit, minmax(50px, 1fr));
-    gap: 1rem;
-    background-color: #18ab18;
+.main-display {
+    grid-column: 1/-1;
+    height: 400px;
+    background-color: rgb(0, 130, 19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
-.grid-container img {
-    width: 100%;
+.main-display img {
+    width: 90%;
     height: 100%;
     object-fit: cover;
 }
 
-.container {
-    width: 90%;
-    max-width: 100px;
-    background-color: #20bcf4;
-    min-height: 500px;
-    color: #007bff;
-    margin: 20px auto;
-    display: grid;
-    grid-template-areas: "header header" "menu content" "footer footer";
-    grid-template-columns: 1fr 3fr;
-    gap: 3px;
-    padding: 10px;
+.thumb {
+    height: 200px;
+    overflow: hidden;
+    background-color: blue;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    color: #000;
+    align-items: center;
+    object-fit: contain;
 }
 
-.container div {
-    background: #d500b8;
-    padding: 10px;
+.thumb img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    size: 100%;
+    background-color: #000;
+    opacity: 0.8;
+    transform: scale(1.02);
 }
 
-.container div menu {
-    grid-area: menu;
-}
-
-.container div.footer {
-    grid-area: footer;
-    text-align: center;
-}
-
-h1 {
-    text-align: center;
-    color: #ff87ef;
+.thumbnail:hover {
+    border-color: black;
+    transform: scale(1.03);
 }
