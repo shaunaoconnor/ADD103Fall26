@@ -14,7 +14,7 @@ body {
 
 .photo-wall {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 15px;
 }
 
@@ -62,4 +62,23 @@ body {
 h1 {
     text-align: center;
     color: #ff87ef;
+}
+
+@media (min-width: 100px) {
+    .photo-wall {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(min-width: 100px) {
+    .photo-wall {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+@media(min-width: 1200px) {
+    .photo-wall {
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
