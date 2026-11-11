@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia Lounge Page</title>
+</head>
+
+<body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+    </style>
+
+    header{
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    overflow: hidden;
+    }
+
+    .hero-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    object-fit: cover;
+    }
+
+    .hero-text {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    }
+
+    main {
+    max-width: 100px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    }
+
+    .media-section{
+    margin-bottom: 20px;
+    }
+
+    .iframe{
+    width: 100%;
+    max-width: 100%;
+    height: 315px;
+    }
+
+    footer{
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #333;
+    color: #fff;
+    }
+
+    footer{
+    color: #fff;
+    text-decoration: none;
+    }
+
+    <header>
+        <video class="hero-video" autoplay muted loop>
+            <source src="https://youtu.be/D6ntKW75tOo?si=JDbFBK9SJW68y3gB" type="video/mp4">
+        </video>
+        <div class="hero-text">
+            <h1>Welcome to the Multimedia Lounge</h1>
+        </div>
+    </header>
+
+</body>
+
+</html>
