@@ -5,8 +5,8 @@ body {
 }
 
 :root {
-    --gold-color: #e1a900;
-    --desat-border: #808080;
+    --primary-slate: #e1a900;
+    --accent-teal: #808080;
     --shadow-color: rgb(255, 0, 0);
     --tooltip-bg: rgb(160, 0, 104);
 }
@@ -18,13 +18,13 @@ body {
 }
 
 h1 {
-    color: var(--gold-color);
+    color: var(--primary-slate);
     text-shadow: 2px 2px var(--shadow-color);
     text-align: center;
     margin-top: 60px;
 }
 
-column-card {
+.column-card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,27 +33,27 @@ column-card {
     height: 400px;
     margin: 20px;
     padding: 20px;
-    border: 2px solid var(--desat-border);
+    border: 2px solid var(--accent-teal);
     border-radius: 10px;
     background-color: var(--tooltip-bg);
     color: rgb(255, 172, 39);
 }
 
-card-container {
+.card-container {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
 
-tooltip-container {
+.tooltip-container {
     position: relative;
     display: inline-block;
     cursor: help;
-    border-bottom: 1px dotted var(--desat-border);
+    border-bottom: 1px dotted var(--accent-teal);
 }
 
-tooltip-container:hover .tooltip-text {
+.tooltip-container:hover .tooltip-text {
     visibility: hidden;
     width: 200px;
     background-color: var(--tooltip-bg);
