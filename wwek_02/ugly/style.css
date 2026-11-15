@@ -1,0 +1,60 @@
+/* 1. Body styling with bright HEX fallback color and Pixabay background image */
+body {
+    background-color: #FF00FF;
+    /* Bright fallback color */
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    /* Text color for contrast */
+    font-family: "comic sans ms", cursive, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+
+/* 2. Main H1 heading styling with bold and large text */
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    color: #FF0000;
+    /* Bright red color for contrast */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* 3. Main H2 heading styling with bold and slightly smaller text */
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #0000FF;
+    /* Bright blue color for contrast */
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* 4. Paragraph styling with readable font size and spacing */
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* 5. Blockquote styling with italic text and left border */
+blockquote {
+    font-style: italic;
+    border-left: 5px solid #FF00FF;
+    /* Bright magenta border */
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+/* 6. Footer styling with centered text and top border */
+footer {
+    text-align: center;
+    border-top: 5px solid #FF00FF;
+    /* Bright magenta border */
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+<li><a href="week_02/ugly/index.html">Week 2B: Ugly Page Challenge</a></li>
