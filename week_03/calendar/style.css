@@ -20,3 +20,10 @@
         width: 30px;
         height: auto;
     }
+
+    img {
+        display: block;
+        margin: 6px auto 0 auto;
+        width: 30px;
+        height: auto;
+    }
