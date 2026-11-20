@@ -1,19 +1,22 @@
     table {
         border-collapse: collapse;
         width: 100%;
-        padding: 12px;
-        background-color: #ff00bf;
+        margin: 20px 0;
+        background-color: #f4eef2;
     }
 
     th,
     td {
         border: 1px solid black;
-
+        padding: 10px;
+        vertical-align: top;
+        text-align: left;
     }
 
     #my-birthday {
-        background-color: #7569b8;
-        border: 3px solid rgb(0, 178, 209);
+        background-color: #fce7f3;
+        border: 2px solid rgb(0, 178, 209);
+        font-weight: bold;
     }
 
     .birthday-img {
@@ -23,7 +26,17 @@
 
     img {
         display: block;
-        margin: 6px auto 0 auto;
-        width: 30px;
+        max-width: 30px;
+        margin-top: 6px;
         height: auto;
+    }
+
+    th {
+        background-color: #9d174d;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    td {
+        height: 80px;
     }
