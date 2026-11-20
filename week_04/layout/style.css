@@ -45,7 +45,7 @@ main {
 }
 
 /* Interactive CSS Tooltip */
-.tooltip-text {
+.tooltip {
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted var(--text-light);
@@ -53,7 +53,7 @@ main {
     cursor: help;
 }
 
-.tooltip .tooltip-text {
+.tooltip .tooltiptext {
     visibility: hidden;
     opacity: 0;
     width: 200px;
@@ -70,7 +70,8 @@ main {
     transition: opacity 0.3s ease;
 }
 
-.tooltip:hover .tooltip-text {
+/* cspell:ignore tooltiptext */
+.tooltip:hover .tooltiptext {
     visibility: visible;
     opacity: 1;
 }
