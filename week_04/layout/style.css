@@ -1,9 +1,10 @@
 :root {
-    --primary-bg: #e1a900;
-    --accent-border: #808080;
-    --card-bg: #f4eef2;
+    --primary-bg: #e1a9d0;
+    --accent-border: #888080;
+    --card-bg: rgba(160, 0, 104);
     --text-light: #ffffff;
-    --header-text: #ffffff;
+    --header-text: #59003b;
+    --tooltip-bg: #1f2937;
 }
 
 * {
