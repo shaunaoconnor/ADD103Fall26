@@ -62,5 +62,10 @@ footer {
         flex-direction: row;
         text-align: left;
         gap: 28px;
+        max-width: 600px;
+    }
+
+    .avatar {
+        flex-shrink: 0;
     }
 }
